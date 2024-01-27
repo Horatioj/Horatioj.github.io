@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: 'Ubuntu Mono', monospace; /* 1 */
+  font-family: 'Fira Code', monospace; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -230,7 +230,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: 1em;
 }
 
