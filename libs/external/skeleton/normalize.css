@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: 'Fira Code', monospace; /* 1 */
+  font-family: 'Courier Prime', monospace; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -230,7 +230,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Courier Prime', monospace;
   font-size: 1em;
 }
 
