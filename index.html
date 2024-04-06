@@ -32,25 +32,23 @@ title: Home
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
       <div class="row">
-        <div class="four columns">
-          <div class="project-container">
-            <table>
-              <tr>
-                <td>
-                  <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a></div>
-                </td>
-                <td>
-                  <div class="project-details">
-                    <b>{{ project.title }}</b> <br/>
-                    {{ project.subtitle }}
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
+        <div class="project-container">
+          <table>
+            <tr>
+              <td>
+                <div class="project-image-container">
+                <a href="{{ project.url }}">
+                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                </a></div>
+              </td>
+              <td>
+                <div class="project-details">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
       {% endfor %}
