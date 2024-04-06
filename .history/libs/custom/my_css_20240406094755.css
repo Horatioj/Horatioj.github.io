@@ -87,7 +87,7 @@ h4 {
     display: block;
     width: 100%;
     height: 6.5rem;
-    background: #FAF5EF;
+    background: #fff;
     z-index: 99;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee; }
@@ -132,7 +132,7 @@ h4 {
     position: absolute;
     top: 0;
     left: 0;
-    background: #FAF5EF;
+    background: #fff;
     border: 1px solid #eee;
     border-radius: 4px;
     top: 92%;
