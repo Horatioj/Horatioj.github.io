@@ -35,24 +35,22 @@ title: Home
           <div class="four columns">
             <div class="project-container">
 
-                <div class="project-image-container">
-                  <a href="{{ project.url }}" style="float:left">
+                <div class="project-content">
+                  <a href="{{ project.url }}" style="display: inline-block; vertical-align: top;">
                     <img src="{{ project.thumbnail }}" class="u-max-full-width" />
                   </a>
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
+                  <div class="project-details" style="display: inline-block; vertical-align: top;">
+                    <b>{{ project.title }}</b> <br/>
+                    {{ project.subtitle }}
+                  </div>
                 </div>
-
-                <!-- <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div> -->
 
             </div>
           </div>
         </div>
       {% endfor %}
     </div>
+</div>
 
     <!-- <div class="tab-pane" id="projects-all">
       {% for project in site.data.projects.projects %}
