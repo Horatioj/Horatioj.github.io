@@ -31,7 +31,6 @@ title: Home
     {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
     {% for project in selected_projects %}
     <div class="row">
-      <div class="project-container">
         <div class="project-image-container">
         <a href="{{ project.url }}">
           <img src="{{ project.thumbnail }}" class="u-max-full-width" />
@@ -40,7 +39,6 @@ title: Home
           <b>{{ project.title }}</b> <br/>
           {{ project.subtitle }}
         </div>
-      </div>
     </div>
     {% endfor %}
   </div>  
