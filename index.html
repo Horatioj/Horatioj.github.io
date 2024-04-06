@@ -31,7 +31,7 @@ title: Home
     <div class="tab-pane active" id="projects-selected">
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% assign index_modulo = forloop.index0 | modulo:1 %}
         {% if index_modulo == 0 %}
           <div class="row">
         {% endif %}
@@ -53,7 +53,7 @@ title: Home
             </div>
           </div>
 
-        {% if index_modulo == 2 %}
+        {% if index_modulo == 1 %}
           </div>
         {% endif %}
       {% endfor %}
@@ -123,7 +123,7 @@ title: Home
 <div class="docs-section" id="misc">
   <h4>MISC</h4>
   <p>
-    <img src="assets/profile-pics/shaoxi.jpg" alt="Shaoxi" style="float:right;width:100px">
+    <a href="https://www.dpm.org.cn/collection/handwriting/228246.html"><img src="assets/profile-pics/shaoxi.jpg" alt="Shaoxi" style="float:right;width:150px"></a>
     I have practiced Chinese caligraphy for more than a decade, many years on Mi Fu's work. 
     Additionally, I have vast interests in soccer, tennis, hiking, cooking, video games, etc. I believe we can share lots of passions.
   </p>
