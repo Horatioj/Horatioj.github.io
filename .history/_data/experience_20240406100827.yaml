@@ -1,0 +1,37 @@
+experiences:
+
+- place: "Cornell Engineering"
+  time: "Feb. 2023 - Present"
+  title: "Research Assistant"
+  subtitle: "Department of Information Science"
+  category: "work"
+
+- place: "Cornell Bowers CIS"
+  time: "Dec. 2023 - May 2024"
+  title: "Lab Assistant"
+  subtitle: "Department of Information Science"
+  category: "work"
+
+- place: "Cornell University"
+  time: "2023 - 2025"
+  title: "M.Sc. Student"
+  subtitle: "Regional Science"
+  category: "school"
+
+- place: "Bayer"
+  time: "July 2022 - Apr. 2023"
+  title: "Developer Intern"
+  subtitle: "Radiology"
+  category: "work"
+
+- place: "University of Macau"
+  time: "2019 - 2023"
+  title: "B.Sc. Student"
+  subtitle: "Business Intelligence and Data Analytics"
+  category: "school"
+
+- place: "Xi'an Jiaotong University"
+  time: "Spring 2021"
+  title: "Exchange Student"
+  subtitle: "Big Data Management and Application"
+  category: "school"

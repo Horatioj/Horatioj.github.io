@@ -14,7 +14,7 @@ projects:
   - title: "High-Dimensional Financial Index Tracking based on the Regularization Approach "
     # subtitle: "Pilot project in Jun, Spain"
     thumbnail: "assets/projects/Tdemo/thumbnail.png"
-    url: "https://apaem.um.edu.mo/ongoing-projects/"
+    # url: "projects/2015_jun.html"
     selected: y
 
   # - title: "Cold-Start Recommendations"

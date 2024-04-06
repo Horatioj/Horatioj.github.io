@@ -1,7 +1,7 @@
 projects:
   - title: "Blockchain-based Carbon Dashboard with Spatial-Temporal Analytics"
     # subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/Cdemo/thumbnail.png"
+    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
     # url: "projects/2016_network-ab-testing.html"
     selected: y
 
@@ -11,10 +11,10 @@ projects:
     url: "https://github.com/Horatioj/MobilityDashboard"
     selected: y
 
-  - title: "High-Dimensional Financial Index Tracking based on the Regularization Approach "
-    # subtitle: "Pilot project in Jun, Spain"
-    thumbnail: "assets/projects/Tdemo/thumbnail.png"
-    url: "https://apaem.um.edu.mo/ongoing-projects/"
+  - title: "Responsive Communities"
+    subtitle: "Pilot project in Jun, Spain"
+    thumbnail: "assets/projects/2015_jun/thumbnail.png"
+    url: "projects/2015_jun.html"
     selected: y
 
   # - title: "Cold-Start Recommendations"
