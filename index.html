@@ -31,11 +31,11 @@ title: Home
     {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
     {% for project in selected_projects %}
     <div class="row">
-        <div class="project-image-container">
+        <div class="project-container">
         <a href="{{ project.url }}">
           <img src="{{ project.thumbnail }}" class="u-max-full-width" />
         </a></div>
-        <div class="project-details">
+        <div class="nine columns main-description">
           <b>{{ project.title }}</b> <br/>
           {{ project.subtitle }}
         </div>
