@@ -1,12 +1,24 @@
 experiences:
 
-- place: "Cornell Engineering"
-  time: "Feb. 2024 - Present"
-  title: "Research Assistant"
-  subtitle: "Department of System Engineering"
+- place: "The Australian National University"
+  time: "2026 - Present"
+  title: "PhD Student"
+  subtitle: "Crawford School of Public Policy"
+  category: "school"
+
+- place: "SAIC Motor"
+  time: "2025"
+  title: "AI Intern"
+  subtitle: "Manufacturing"
   category: "work"
 
-- place: "Cornell Bowers CIS"
+- place: "Cornell University"
+  time: "2024 - 2025"
+  title: "Research Assistant"
+  subtitle: "Department of Systems Engineering"
+  category: "work"
+
+- place: "Cornell University"
   time: "2024"
   title: "Lab Assistant"
   subtitle: "Department of Information Science"
