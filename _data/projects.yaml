@@ -3,7 +3,7 @@ projects:
     desc: "on-road co2 emissions"
     # subtitle: "Randomizing Over Randomized Experiments"
     thumbnail: "assets/projects/Cdemo/thumbnail.png"
-    url: "https://doi.org/10.1016/j.envsoft.2026.106861"
+    # url: "https://doi.org/10.1016/j.envsoft.2026.106861"
     selected: y
 
   - title: "An Equity Metric for Emerging Mobility Systems in Urban Environments"
